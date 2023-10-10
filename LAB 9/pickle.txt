@@ -1,0 +1,4 @@
+review = "Facebook is good for promotion"
+r = pd.DataFrame(review)
+text_cv= cv.fit_transform(r)
+SVC_from_pickle.predict(text_cv) 
